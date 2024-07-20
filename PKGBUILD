@@ -24,7 +24,6 @@ sha512sums=("SKIP"
 	    "SKIP")
 
 package() {
-    INSTALLDIR="${HOME}/.retro-anki-sync-server"
     mkdir -p "${pkgdir}/usr/bin"
     mkdir -p "${pkgdir}/${HOME}"
     cp -a "${srcdir}/retro-anki-sync-server"    "${pkgdir}/${HOME}/.retro-anki-sync-server"
