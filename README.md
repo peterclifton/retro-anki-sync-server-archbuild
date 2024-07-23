@@ -15,6 +15,7 @@ Bear in mind that I recommend that you do **not** install this (see note above f
 - `$ cd buildfolder`
 - `$ git clone https://github.com/peterclifton/retro-anki-sync-server-archbuild.git`
 - Review **PKGBUILD** and all other files in *buildfolder* to make sure you understand and are happy with what they are going to do! (If not modify them until you are happy with them!)
+- `$sudo pacman -S --needed base-devel` (install base-devel if not already installed)
 - `$ makepkg -src`
 - `$ sudo pacman -U retro-anki-sync-server-<version>.pkg.tat.zst`
 
